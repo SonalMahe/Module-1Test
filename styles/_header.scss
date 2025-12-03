@@ -1,19 +1,20 @@
 * {
-margin :0;
-padding:0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
-  font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  color:#FFFFFF;
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #FFFFFF;
 }
 
 //Main-section
-.main{
+.main {
     background-image: url(../images/header.png);
-    height:100vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -23,15 +24,41 @@ body{
 }
 
 //nav bar
-.navbar{
-    display:flex;
+.navbar {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    bottom: 10;
+    position: absolute;
+    bottom: 0;
     left: 0;
     width: 100%;
     padding: 5px;
     background-color: #5474FD;
     color: #FFFFFF;
+}
+
+.mainlogo {
+    font-family: "Josefin Sans" sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-left: 80px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
+        transition: 0.5s ease;
+
+        a:hover{
+            cursor: pointer;
+        }
+
+    }
+
 }
