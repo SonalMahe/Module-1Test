@@ -139,3 +139,11 @@ body {
 .scroll a:hover {
   color: blue;
 }
+
+.hero {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  padding: 55px;
+  background-image: url(../images/Rectangle\ 41444.png);
+}
