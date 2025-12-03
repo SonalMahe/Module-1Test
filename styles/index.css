@@ -75,6 +75,66 @@ body {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
-.nav-links a a:hover {
+.nav-links a:hover {
   cursor: pointer;
+  color: rgb(10, 10, 183);
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.main-section {
+  margin-top: 10%;
+  text-align: center;
+}
+.main-section h2 {
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+.main-section p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+.main-section .search {
+  margin-top: 2rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.main-section .search input {
+  padding: 0.8rem 1rem;
+  width: 400px;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 3px 0 0 3px;
+}
+.main-section button {
+  padding: 0.5rem 1.5rem;
+  background-color: #5474FD;
+  border: none;
+  color: #FFFFFF;
+  border-radius: 3px;
+}
+.main-section button:hover {
+  background-color: rgb(64, 64, 79);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.scroll {
+  list-style: none;
+  text-decoration: none;
+  margin-top: 10%;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  opacity: 90%;
+}
+.scroll a {
+  color: #FFFFFF;
+  text-decoration: none;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.scroll a:hover {
+  color: blue;
 }
