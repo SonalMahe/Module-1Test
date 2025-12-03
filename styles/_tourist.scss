@@ -1,12 +1,12 @@
 .tourist {
     background-image: url(../images/tourist.png);
     height: 700px;
-
 }
 
 h1 {
     color: #FFFFFF;
 }
+
 .text{
     text-align: center;
     padding: 40px;
@@ -18,9 +18,9 @@ h1 {
     justify-content: center;
     background: #333333;
     transform: translate(300px, 150px);
-  //  width: 60%;//
+    width: 60%;
     height: 230px;
-    font-family: "Josefin" sans-serif;
+    font-family: "Josefin sans" sans-serif;
     color: #E8E8E8;
     font-size: 20px;
     margin-top: 20px;
@@ -34,11 +34,11 @@ h1 {
 }
 
     p{
-        margin-top: 20px;
+        margin-top:10px;
     }
 
 .text-align{
-    display: inline-block;
+    display: flex;
     margin-top: 10px;
 
 }
