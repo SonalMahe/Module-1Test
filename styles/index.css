@@ -381,18 +381,20 @@ h1 {
   padding: 40px;
 }
 
-.tourist-text {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+.tourist-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-line-pack: center;
       align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: #333333;
   -webkit-transform: translate(300px, 150px);
           transform: translate(300px, 150px);
-  width: 60%;
   height: 230px;
-  font-family: "Josefin-sans" sans-serif;
+  font-family: "Josefin" sans-serif;
   color: #E8E8E8;
   font-size: 20px;
   margin-top: 20px;
@@ -411,7 +413,6 @@ p {
 }
 
 .text-align {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
+  margin-top: 10px;
 }

@@ -12,14 +12,15 @@ h1 {
     padding: 40px;
 }
 
-.tourist-text {
-    display: inline-flex;
+.tourist-box {
+    display: flex;
     align-content: center;
+    justify-content: center;
     background: #333333;
     transform: translate(300px, 150px);
-    width: 60%;
+  //  width: 60%;//
     height: 230px;
-    font-family: "Josefin-sans" sans-serif;
+    font-family: "Josefin" sans-serif;
     color: #E8E8E8;
     font-size: 20px;
     margin-top: 20px;
@@ -37,6 +38,7 @@ h1 {
     }
 
 .text-align{
-    display: flex;
+    display: inline-block;
+    margin-top: 10px;
 
 }
