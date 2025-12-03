@@ -233,8 +233,7 @@ body {
 }
 
 .step-container svg {
-  width: 50%;
-  height: 100px;
+  width: 40%;
   overflow: visible;
 }
 
@@ -248,7 +247,7 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  width: 80%;
+  width: 60%;
   z-index: 10;
 }
 

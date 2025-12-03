@@ -58,7 +58,7 @@
       }  
     }
 }
-//serch places section CSS-
+//search places section CSS-
 .points{
     position: relative;
     display:flex;
@@ -76,8 +76,7 @@
     justify-content: space-between;
  }
  .step-container svg{
-    width: 50%;
-    height: 100px;
+    width: 40%;
     overflow: visible;
  }
 
@@ -85,7 +84,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    width: 80%;
+    width: 60%;
     z-index: 10;
  }
     .adjust{
