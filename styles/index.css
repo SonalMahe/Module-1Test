@@ -297,8 +297,8 @@ body {
 .country {
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(2px);
-  -webkit-transform: translate(150px, 250px);
-          transform: translate(150px, 250px);
+  -webkit-transform: translate(200px, 250px);
+          transform: translate(200px, 250px);
   width: 400px;
   height: 300px;
   padding: 20px;
@@ -307,7 +307,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   gap: 30px;
-  letter-spacing: 1.2px;
+  letter-spacing: 1px;
 }
 
 h3 {
@@ -324,5 +324,6 @@ button {
   color: #FFFFFF;
   width: 200px;
   height: 50px;
+  font-family: "aleo" sans-serif;
   text-align: center;
 }
