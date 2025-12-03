@@ -11,8 +11,50 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-}
+
 
 .content{
     width: 40%;
+
+ h2{
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    p{
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+
+   .btn{
+    display: inline-block;
+    background-color: #5474FD;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: black 0.5s ease;
+
+    &:hover{
+        background-color:rgb(6, 6, 88);
+    }
+   }
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+    img{
+        width:280px;
+        border-radius: 5px;
+        box-shadow: 10px;
+    }
+
+    .align{
+        margin-left: 70px;
+      }  
+    }
 }
