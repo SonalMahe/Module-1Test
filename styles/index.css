@@ -416,3 +416,24 @@ p {
 .text-align {
   margin-top: 5px;
 }
+
+.footer {
+  padding-bottom: 30px;
+  background-color: #232323;
+  justify-items: center;
+  -ms-flex-line-pack: end;
+      align-content: end;
+  height: 270px;
+}
+.footer .footer-text {
+  letter-spacing: 4px;
+}
+.footer .header-logo {
+  letter-spacing: 5px;
+  line-height: 2px;
+}
+.footer .icons {
+  font-size: 20px;
+  letter-spacing: 20px;
+  line-height: 50px;
+}
