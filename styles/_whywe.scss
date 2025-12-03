@@ -89,9 +89,9 @@
  }
     .adjust{
         display: flex;
-        justify-content: center;
         align-items: center;
-        color:#FFFFFF
+        justify-content: center;
+        margin-left: 160px;
     }
 
     .step{
@@ -100,7 +100,6 @@
         align-items: center;
         text-align: center;
         width: 150px;
-        margin-bottom: 5px;
         border-radius: 50%;
     }
    .step p{
