@@ -206,3 +206,91 @@ body {
 .hero .images .align {
   margin-left: 70px;
 }
+
+.points {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px;
+  background-color: #333333;
+}
+
+.step-container {
+  position: absolute;
+  top: 60px;
+  width: 80%;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.step-container svg {
+  width: 50%;
+  height: 100px;
+  overflow: visible;
+}
+
+.step-flow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 80%;
+  z-index: 10;
+}
+
+.adjust {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+}
+
+.step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 150px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+}
+
+.step p {
+  font-family: "Aleo", serif;
+  padding: 20px;
+  font-weight: 180;
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+
+.step img {
+  height: 40px;
+  width: 40px;
+}
