@@ -84,12 +84,12 @@ body {
         display: inline-flex;
 
         input{
-            padding: 1rem;
+            padding: 0.8rem 1rem;
             width: 400px;
             text-align: center;
             border: none;
             outline: none;
-            border-radius: 3px;
+            border-radius: 3px 0 0 3px;
         }
     }
 
@@ -98,7 +98,8 @@ button{
             background-color: #5474FD;
             border: none;
             color: #FFFFFF;
-            border-radius:3px;
+            border-radius:2px;
+            height: 50px;
         
 
            &:hover{
