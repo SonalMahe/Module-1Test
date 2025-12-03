@@ -380,3 +380,38 @@ h1 {
   text-align: center;
   padding: 40px;
 }
+
+.tourist-text {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background: #333333;
+  -webkit-transform: translate(300px, 150px);
+          transform: translate(300px, 150px);
+  width: 60%;
+  height: 230px;
+  font-family: "Josefin-sans" sans-serif;
+  color: #E8E8E8;
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.tourist-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+p {
+  margin-top: 20px;
+}
+
+.text-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
